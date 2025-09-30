@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2022/04/26/13/04/sky-7158340_1280.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px;
+}
+#nav h2 {
+  font-size: 30px;
+}
+#nav i {
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+}
+#full {
+  height: 100%;
+  width: 40%;
+  background-color: #ffffff8e;
+  position: absolute;
+  top: 0;
+  right: -40%;
+  backdrop-filter: blur(10px);
+  padding: 150px 60px;
+}
+#full h4 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #111;
+}
+#full i {
+  color: #111;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  padding: 5px;
+  background-color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 50%;
+  cursor: pointer;
+}

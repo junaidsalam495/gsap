@@ -14,10 +14,11 @@ body {
 body {
   background-color: #111;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#string{
-  height: 200px;
-  width: 100%;
+h1{
+  font-size: 80px;
 }
-
