@@ -1,0 +1,36 @@
+@font-face {
+  font-family: china;
+  src: url(../NeueMachina-Light.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: china;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+#page1,
+#page2,
+#page3 {
+  height: 100%;
+  width: 100%;
+}
+#move {
+  background-color: lawngreen;
+}
+
+#marque h1 {
+  font-size: 70px;
+}
+#marque img {
+  width: 80px;
+}
